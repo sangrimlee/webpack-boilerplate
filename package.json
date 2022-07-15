@@ -1,0 +1,35 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "Webpack Boilerplate",
+  "keywords": [
+    "webpack",
+    "express",
+    "babel",
+    "Boilerplate"
+  ],
+  "author": "sangrimlee <contact@sangrim.dev>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sangrimlee/webpack-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sangrimlee/webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sangrimlee/webpack-boilerplate#readme",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint --fix 'src/**/*.js' 'public/**/*.js'",
+    "format": "prettier --write 'src/**/*.js' 'public/**/*.js'",
+    "prepare": "husky install"
+  },
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1",
+    "husky": "^8.0.0"
+  }
+}
